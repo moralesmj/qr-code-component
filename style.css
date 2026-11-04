@@ -1,0 +1,34 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    min-height: 100dvh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    border-radius: 20px;
+    height: auto;
+    width: fit-content;
+}
+
+img {
+    border-radius: 10px;
+    height: 288px;
+    width: 288px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+}
+
+p {
+    color: hsl(216, 15%, 48%);
+}
+
+.attribution { font-size: 0.6875rem; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
